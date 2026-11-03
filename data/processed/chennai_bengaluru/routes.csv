@@ -1,0 +1,17 @@
+id,route_short_name,route_long_name,transport_mode_id,operator_name,data_source_id,is_active
+IR_20607,20607 / 20608,MGR Chennai Central - KSR Bengaluru Vande Bharat Express,1,Indian Railways / Southern Railway,1,true
+IR_12007,12007 / 12008,MGR Chennai Central - Mysuru Shatabdi Express,1,Indian Railways / Southern Railway,1,true
+IR_12639,12639 / 12640,Brindavan Superfast Express,1,Indian Railways / Southern Railway,1,true
+IR_12607,12607 / 12608,Lalbagh Superfast Express,1,Indian Railways / Southern Railway,1,true
+IR_12657,12657 / 12658,MGR Chennai Central - KSR Bengaluru Superfast Mail,1,Indian Railways / Southern Railway,1,true
+IR_16021,16021 / 16022,Kaveri Express (via Katpadi - Bangarapet),1,Indian Railways / Southern Railway,1,true
+IR_12296,12296 / 12295,Sanghamitra Superfast Express,1,Indian Railways / East Central Railway,1,true
+KSRTC_AIRAVAT,KSRTC Airavat,Chennai Koyambedu to Bengaluru Majestic AC Multi-Axle,2,Karnataka State Road Transport Corporation (KSRTC),1,true
+SETC_EXPRESS,SETC Ultra Deluxe,Chennai Kilambakkam to Bengaluru Shantinagar Semi-Sleeper,2,State Express Transport Corporation Tamil Nadu (SETC),1,true
+CMRL_BLUE,Blue Line (Corridor 1),Chennai Airport to Wimco Nagar Depot via Central,3,Chennai Metro Rail Limited (CMRL),1,true
+CMRL_GREEN,Green Line (Corridor 2),Chennai Central to St. Thomas Mount via Koyambedu,3,Chennai Metro Rail Limited (CMRL),1,true
+BMRCL_PURPLE,Purple Line,Whitefield (Kadugodi) to Challaghatta via Majestic,3,Bangalore Metro Rail Corporation (Namma Metro),1,true
+BMRCL_GREEN,Green Line,Madavara to Silk Institute via Yesvantpur & Majestic,3,Bangalore Metro Rail Corporation (Namma Metro),1,true
+BMTC_FEEDER,BMTC Vajra AC,Majestic KBS to Electronic City via Silk Board,2,Bangalore Metropolitan Transport Corporation (BMTC),1,true
+MTC_AIRPORT_EXP,MTC 18A / Express,Chennai Central to Chennai Airport via Guindy,2,Metropolitan Transport Corporation Chennai (MTC),1,true
+

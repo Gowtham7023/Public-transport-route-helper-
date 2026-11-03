@@ -1,0 +1,16 @@
+from_station_id,to_station_id,transfer_type,min_transfer_time_min,distance_meters,walking_route_notes
+MAS,CMRL_CENTRAL,INTERCHANGE_SUBWAY,5,200,Air-conditioned underground subway directly connecting Central rail terminal to Metro concourse
+CMRL_CENTRAL,MAS,INTERCHANGE_SUBWAY,5,200,Underground pedestrian subway to Chennai Central Railway Station main entrance
+MS,CMRL_EGMORE,WALK,4,150,Covered pathway connecting Egmore Station platform 1 to Egmore Metro Gate 2
+CMRL_EGMORE,MS,WALK,4,150,Pedestrian walkway to Chennai Egmore Railway Station
+SBC,BMRCL_MAJESTIC,SKYWALK,6,300,Foot overbridge with travelator connecting KSR Bengaluru platform 1 to Majestic Metro Station
+BMRCL_MAJESTIC,SBC,SKYWALK,6,300,Majestic Metro direct concourse access to KSR Bengaluru Railway Station
+SBC,KBS_BUS,WALK,5,250,Majestic pedestrian subway connecting Railway Station to Kempegowda Bus Station (BMTC & KSRTC)
+KBS_BUS,SBC,WALK,5,250,Pedestrian subway to KSR Bengaluru Railway concourse
+BMRCL_MAJESTIC,KBS_BUS,WALK,3,100,Direct pedestrian ramp from Metro exit B to Kempegowda Bus Station
+KBS_BUS,BMRCL_MAJESTIC,WALK,3,100,Pedestrian entrance from Bus Station to Majestic Metro Station
+KJM,BMRCL_BYPL,METRO_FEEDER,8,800,Feeder bus / auto link between K.R. Puram railway station and Baiyappanahalli Metro hub
+BMRCL_BYPL,KJM,METRO_FEEDER,8,800,Feeder shuttle to K.R. Puram railway platforms
+CMRL_GUINDY,TBM,SUBURBAN_RAIL,18,12000,Suburban EMU rail connecting Guindy to Tambaram Junction
+TBM,CMRL_GUINDY,SUBURBAN_RAIL,18,12000,Suburban EMU rail connecting Tambaram to Guindy
+

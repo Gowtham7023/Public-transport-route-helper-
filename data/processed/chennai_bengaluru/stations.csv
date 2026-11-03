@@ -1,0 +1,30 @@
+id,name,code,city,state,latitude,longitude,transport_types,is_hub,wheelchair_accessible
+MAS,Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station,MAS,Chennai,Tamil Nadu,13.0827,80.2755,"train,metro,bus",true,true
+MS,Chennai Egmore Railway Station,MS,Chennai,Tamil Nadu,13.0782,80.2608,"train,metro,bus",true,true
+TBM,Tambaram Railway Station,TBM,Chennai,Tamil Nadu,12.9250,80.1170,"train,bus",true,true
+CMRL_CENTRAL,Puratchi Thalaivar Dr. M.G.R Central Metro,CENTRAL_METRO,Chennai,Tamil Nadu,13.0820,80.2745,metro,true,true
+CMRL_EGMORE,Egmore Metro Station,EGMORE_METRO,Chennai,Tamil Nadu,13.0785,80.2612,metro,false,true
+CMRL_GUINDY,Guindy Metro & Suburban Interchange,GUINDY_METRO,Chennai,Tamil Nadu,13.0092,80.2131,"metro,train,bus",true,true
+CMRL_AIRPORT,Chennai International Airport Metro,AIRPORT_METRO,Chennai,Tamil Nadu,12.9815,80.1636,metro,true,true
+CMBT_BUS,Chennai Mofussil Bus Terminus (Koyambedu),CMBT,Chennai,Tamil Nadu,13.0694,80.1948,"bus,metro",true,true
+KCBT_BUS,Kalaignar Centenary Bus Terminus (Kilambakkam),KCBT,Chennai,Tamil Nadu,12.8711,80.0823,bus,true,true
+TNAGAR_BUS,T. Nagar Bus Terminus,TNAGAR,Chennai,Tamil Nadu,13.0405,80.2337,bus,false,false
+AJJ,Arakkonam Junction,AJJ,Arakkonam,Tamil Nadu,13.0836,79.6687,train,true,true
+KPD,Katpadi Junction,KPD,Vellore,Tamil Nadu,12.9723,79.1352,"train,bus",true,true
+JTJ,Jolarpettai Junction,JTJ,Tirupattur,Tamil Nadu,12.5714,78.5772,train,true,true
+BWT,Bangarapet Junction,BWT,Bangarapet,Karnataka,12.9972,78.1994,train,true,true
+KJM,Krishnarajapuram Railway Station,KJM,Bengaluru,Karnataka,13.0012,77.6789,"train,metro,bus",true,true
+BNC,Bengaluru Cantt Railway Station,BNC,Bengaluru,Karnataka,12.9934,77.5983,"train,bus",true,true
+SBC,KSR Bengaluru City Junction,SBC,Bengaluru,Karnataka,12.9781,77.5695,"train,metro,bus",true,true
+YPR,Yesvantpur Junction,YPR,Bengaluru,Karnataka,13.0238,77.5503,"train,metro,bus",true,true
+SMVB,Sir M. Visvesvaraya Terminal (SMVT Bengaluru),SMVB,Bengaluru,Karnataka,13.0084,77.6534,"train,bus",true,true
+BMRCL_MAJESTIC,Nadaprabhu Kempegowda Station Majestic Metro,MAJESTIC_METRO,Bengaluru,Karnataka,12.9757,77.5728,metro,true,true
+BMRCL_MGROAD,Mahatma Gandhi Road Metro,MGROAD_METRO,Bengaluru,Karnataka,12.9756,77.6066,metro,false,true
+BMRCL_INDIRANAGAR,Indiranagar Metro Station,INDIRANAGAR_METRO,Bengaluru,Karnataka,12.9783,77.6387,metro,false,true
+BMRCL_BYPL,Baiyappanahalli Metro Station,BYPL_METRO,Bengaluru,Karnataka,12.9912,77.6521,metro,true,true
+BMRCL_WHITEFIELD,Whitefield (Kadugodi) Metro Station,WHITEFIELD_METRO,Bengaluru,Karnataka,12.9961,77.7610,metro,true,true
+KBS_BUS,Kempegowda Majestic Bus Station,KBS,Bengaluru,Karnataka,12.9768,77.5713,bus,true,true
+SHANTINAGAR_BUS,Shantinagar Bus Station,SHANTINAGAR,Bengaluru,Karnataka,12.9542,77.5925,bus,true,true
+SILKBOARD_BUS,Central Silk Board Bus Interchange,SILKBOARD,Bengaluru,Karnataka,12.9172,77.6228,bus,false,false
+ECITY_BUS,Electronic City Bus Terminal,ECITY,Bengaluru,Karnataka,12.8452,77.6602,bus,false,true
+
