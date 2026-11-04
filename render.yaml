@@ -20,3 +20,4 @@ services:
         value: codestral-latest
       - key: MISTRAL_API_KEY
         sync: false
+
