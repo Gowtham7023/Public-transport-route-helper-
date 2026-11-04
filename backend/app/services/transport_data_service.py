@@ -240,6 +240,20 @@ class TransportDataService:
             logger.info("Database already seeded with verified transport data.")
             return
 
+        candidates = [
+            data_dir,
+            os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), data_dir),
+            os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), data_dir),
+            os.path.join(os.getcwd(), data_dir),
+            os.path.join(os.getcwd(), "..", data_dir),
+        ]
+        resolved_dir = data_dir
+        for c in candidates:
+            if os.path.exists(c) and os.path.exists(os.path.join(c, "stations.csv")):
+                resolved_dir = c
+                break
+        data_dir = resolved_dir
+
         logger.info(f"Seeding verified corridor data from: {data_dir}")
 
         # 1. Transport Modes

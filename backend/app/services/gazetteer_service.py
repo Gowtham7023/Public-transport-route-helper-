@@ -14,7 +14,7 @@ def get_gazetteer_path() -> str:
         os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))), "data", "gazetteer", "india_places.json"),
         os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "data", "gazetteer", "india_places.json"),
         "data/gazetteer/india_places.json",
-        "/Users/raghavareddy/Desktop/explore/data/gazetteer/india_places.json"
+        "../data/gazetteer/india_places.json",
     ]
     for c in candidates:
         if os.path.exists(c):

@@ -4,7 +4,9 @@ import { Station, Journey, SearchFilters, SystemHealth, MLModelInfo, DatasetStat
 const isLocal = typeof window !== 'undefined' && 
   (window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost');
 
-const PRIMARY_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || (isLocal ? 'http://127.0.0.1:8000/api' : '/api');
+const rawBaseUrl: string = (import.meta as any).env?.VITE_API_BASE_URL || (isLocal ? 'http://127.0.0.1:8000/api' : '/api');
+const cleanBase = rawBaseUrl.trim().replace(/\/+$/, '');
+const PRIMARY_BASE_URL = cleanBase === '/api' || cleanBase.endsWith('/api') ? cleanBase : `${cleanBase}/api`;
 const FALLBACK_BASE_URL = '/api';
 
 async function fetchWithFallback(endpoint: string, options: RequestInit = {}): Promise<Response> {
